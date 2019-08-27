@@ -1,0 +1,253 @@
+body {
+	margin:0px;
+	padding:0px;
+	border:0px;
+	
+}
+
+.wraper {
+}
+
+.navbar{
+	background:linear-gradient(to right, #0000ff -1%, #ff0000 96%);
+	height:70px;
+	width:100%;
+	
+}
+
+.main-content {
+	
+    
+}
+
+.footer {
+	background-color:yellow;
+	height:100px;
+	width:100%;
+    position:relative;
+}
+
+/*Lions club*/
+.nav-logo a {
+	font-size:28px;
+	color:white;
+	float:left;
+	font-family:arial;
+	padding:15px;
+	margin-left:20px;
+	text-decoration:none;
+	transform:translateZ(0);
+	transition:transform 0.25s ease-out;
+}
+
+.nav-link ul li a:hover {
+	color:black;
+	padding:2px;
+	
+}
+
+.nav-logo a:hover {
+	font-size:30px;
+	transform:scale(1.05);
+	
+} 
+
+.marquee {
+	position:absolute; 
+	top:15px; 
+	left:170px;
+	margin-left:120px;
+	width:200px;
+	border:1px solid red;
+	border-radius:5px;
+	padding:10px;
+	font-family:arial;
+	color:white;
+	
+}
+
+/*Links*/
+.nav-link {
+	float:right;
+	padding:5px;
+	position:absolute;
+	right:30px;	
+	
+}
+
+/*To remove underline and change text type*/
+.nav-link ul li a {
+	text-decoration:none;
+	color:white;
+	font-family:arial;
+}
+
+/*Links */
+.nav-link ul li {
+	float:left;
+	margin-left:10px;
+	background-color:#191970;
+	padding:5px;
+	border-radius:7px;
+		
+}
+
+/*To remove dots */
+.nav-link ul {
+	list-style-type:none;
+	
+}
+
+.nav-link ul li:hover {
+	background:linear-gradient(to left, #33ccff 0%, #6600cc 100%);
+			
+}
+
+.image {
+	width:300px;
+	height:200px;	
+    margin-top:40px;
+	position:absolute;
+	transform:translateZ(0);
+	transition:transform 0.25s ease-out;
+	margin-left:125px;
+	
+}
+
+.image:hover {
+   transform:scale(1.05);
+}
+
+
+
+.row-heading {	
+	font-family:malgun-geothic;
+	font-size:30px;	
+	margin:0px;
+	padding-top:35px;
+	color:white;
+}
+
+.col-left {
+	float:left;
+	width:45%;
+	padding:20px;
+	text-align:justify;
+	color:white;
+	margin-left:25px;
+
+	
+}
+
+.col-right {
+	float:right;
+	width:45%;
+
+}
+
+.row-1 {	
+	height:365px;
+	width:100%;
+	background:linear-gradient(to left, hsl(273, 95%, 29%) 0%, #cc0033 100%)
+	
+}
+
+.row-2 {
+	height:320px;
+	width:100%;
+	background:brown;
+	
+}
+
+.image2 {	
+	width:100%; 
+	height:200px;
+	
+} 
+
+.flip-card {
+  width: 280px;
+  height: 200px;
+  padding:30px;
+  float:left;
+  
+}
+
+.flip-card-inner {
+  position:relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.image-gallary {	
+	font-size:30px;
+	font-family:malgun-geothic;
+	color:white;
+	margin:0px;
+	padding:0px 0px 20px 0px;
+	
+}
+
+.row-3 {
+	background-color:black;
+	padding:20px;
+}
+
+.card-list {	
+	width:100%;	
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 20px;	
+	
+}
+
+.card-container {	
+	display: flex;
+	flex-direction: column;	
+	border: 1px solid grey;
+	border-radius: 5px;
+	box-shadow: 0px 5px 15px -10px grey;	
+	cursor: pointer;
+	-moz-osx-font-smooting: grayscale; 
+			
+}
+
+.Key-members {	
+	font-size:30px;
+	font-family:malgun-geothic;
+	color:black;
+	margin:0px;
+}
+
+
+
+
+
+
